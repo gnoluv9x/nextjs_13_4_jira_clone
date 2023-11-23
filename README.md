@@ -24,6 +24,7 @@
 - `git clone https://github.com/sebastianfdz/jira_clone`
 - Create an empty `.env` file inside the root dir `/`, copy `/.env.example` contents into it, and fill in the variables needed.
 - `npm install`
+- `npx prisma migrate dev --name init`
 - `npx prisma db seed`
 - Lookup 'USE THIS IF RUNNING LOCALLY' inside the project and follow the instructions.
 - `npm run dev`
